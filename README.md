@@ -1,5 +1,5 @@
 # ArduinoLibConverter
-Converts Arduino libraries into text for use in TinkerCad.
+Converts Arduino libraries(Zip files only) into text for use in TinkerCad. To run open cmd, then 'python' followed by the path of the file.
 
 NEED TO INSTALL FOLLOWING PYTHON PACKAGES:
 TKINTER
