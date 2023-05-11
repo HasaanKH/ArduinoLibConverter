@@ -79,7 +79,7 @@ class GUI:
                                 '\n') if '#include' not in line)
                             file_contents += file_data + "\n"
 
-        file_contents += "\n" + "\\end"
+        file_contents += "\n" + "//end"
         # Update the text box with the file contents
         self.file_contents_text.delete("1.0", tk.END)
         self.file_contents_text.insert(tk.END, file_contents)
